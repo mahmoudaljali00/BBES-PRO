@@ -6,7 +6,7 @@ import { useEffect, useState } from "react";
 import { GoArrowUpRight } from "react-icons/go";
 
 export default function projects() {
-  const { alldata, loading } = useFetchData("/admin/api/projects");
+  const { alldata, loading } = useFetchData("/api/projects");
 
   const [selectedCategory, setSelectedCategory] = useState("All");
   const [filteredProjects, setFilteredProjects] = useState([]);
@@ -108,7 +108,7 @@ export default function projects() {
             ) : (
               filteredProjects.map((pro) => (
                 <Link
-                  href={`/admin/projects/${pro.slug}`}
+                  href={`/projects/${pro.slug}`}
                   key={pro._id}
                   className="block bg-white shadow hover:shadow-lg transition overflow-hidden group"
                 >

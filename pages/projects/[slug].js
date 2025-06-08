@@ -16,7 +16,7 @@ export default function projectslug() {
 
   const { slug } = router.query;
 
-  const { alldata, loading } = useFetchData(`/admin/api/projects?slug=${slug}`);
+  const { alldata, loading } = useFetchData(`/api/projects?slug=${slug}`);
 
   if (loading) {
     return (

@@ -7,11 +7,6 @@ module.exports = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
-    "./admin/components/**/*.{js,ts,jsx,tsx,mdx}",
-    "./admin/pages/**/*.{js,ts,jsx,tsx,mdx}",
-    "./admin/utils/**/*.{js,ts,jsx,tsx,mdx}",
-    "./admin/assets/**/*.{js,ts,jsx,tsx,mdx}",
-
 
     // Or if using `src` directory:
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
@@ -44,7 +39,7 @@ module.exports = {
         custom: " 0px 4px 54px 10px rgba(18, 19, 21, 0.06)",
       },
       backgroundImage: {
-        hero: "url('/admin/assets/img/hero/bg.jpg')",
+        hero: "url('/assets/img/hero/bg.jpg')",
       },
     },
   },

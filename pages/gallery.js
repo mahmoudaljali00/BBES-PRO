@@ -22,7 +22,7 @@ export default function gallery() {
     progressContent.current.textContent = `${Math.ceil(time / 1000)}s`;
   };
 
-  const { alldata, loading } = useFetchData("/admin/api/photos");
+  const { alldata, loading } = useFetchData("/api/photos");
   const [selectedImage, setSelectedImage] = useState(null);
   return (
     <>
