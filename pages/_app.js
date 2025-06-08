@@ -1,4 +1,3 @@
-import { DM_Sans, Barlow, Alexandria } from "next/font/google";
 import Header from "@/components/home/Header";
 import Topbar from "@/components/home/Topbar";
 import { useEffect, useState } from "react";
